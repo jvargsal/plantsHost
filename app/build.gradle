@@ -80,7 +80,7 @@ dependencies {
     // Splash screen
     implementation "androidx.core:core-splashscreen:$splash_screen"
 
-    // Coroutines
+    // Coroutines //
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines"
 
     // Retrofit
