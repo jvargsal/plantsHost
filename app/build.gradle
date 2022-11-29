@@ -40,6 +40,8 @@ android {
 }
 
 dependencies {
+    implementation 'com.google.firebase:firebase-firestore:24.4.1'
+    implementation 'com.google.firebase:firebase-storage:20.1.0'
     def core_ktx = "1.9.0"
     def app_compat = "1.5.1"
     def material = "1.7.0"
@@ -58,6 +60,7 @@ dependencies {
     def glide = "4.13.2"
     def okhttp = "4.10.0"
     def okhttpInterceptor = "4.9.0"
+    def circleImage = "3.1.0"
 
     implementation "androidx.core:core-ktx:$core_ktx"
     implementation "androidx.appcompat:appcompat:$app_compat"
@@ -106,4 +109,7 @@ dependencies {
     // Firebase
     implementation platform('com.google.firebase:firebase-bom:31.0.2')
     implementation 'com.google.firebase:firebase-auth-ktx'
+
+    //Imagen circular
+    implementation "de.hdodenhof:circleimageview:$circleImage"
 }
